@@ -1,0 +1,27 @@
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(53, 53, 238);
+    height: 30px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 560px;
+    margin-top: 20px;
+}
+
+.search__input > input {
+    flex: 1;
+    padding: 8px 20px;
+    font-size: small;
+    border: none;
+}
+
+.search__input >input:focus {
+    outline-width: 0px;
+}
+
+.search__inputIcon {
+    color: grey;
+}

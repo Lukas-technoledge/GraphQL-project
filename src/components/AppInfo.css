@@ -1,0 +1,21 @@
+.appInfo {
+    flex-direction: column;
+    margin-top: 20px !important;
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: center;
+}
+
+.appInfo__info {
+   margin: 0 auto !important;
+   padding: 15px;
+}
+
+.appInfo__date {
+    border: 1px grey solid;
+    width: 350px;
+    text-align: center;
+    background-color: lightblue;
+}
