@@ -8,9 +8,8 @@
     justify-content: center;
 }
 
-.appInfo__info {
-   margin: 0 auto !important;
-   padding: 15px;
+.image {
+    width: 100px;
 }
 
 .appInfo__date {
@@ -18,4 +17,15 @@
     width: 350px;
     text-align: center;
     background-color: lightblue;
+}
+
+.appInfo__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2px;
+}
+
+.appInfo__details {
+    flex: 0.5;
 }

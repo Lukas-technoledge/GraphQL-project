@@ -1,7 +1,5 @@
 import './App.css';
 import { Switch } from 'react-router';
-
-
 import Home from './pages/Home'
 
 function App() {

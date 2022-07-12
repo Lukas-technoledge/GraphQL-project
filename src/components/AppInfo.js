@@ -1,6 +1,7 @@
 import React from 'react'
 import './AppInfo.css';
 import {useData} from '../hooks/useData';
+import img from '../kindpng_490827.png'
 
 function AppInfo() {
     const {error, loading, data } = useData();
@@ -15,12 +16,13 @@ function AppInfo() {
        return <div className="appInfo__info">
         <h3 className="appInfo__date" >Date: { launch.launch_date_local }</h3>
         <div className="appInfo__data">
-            <p> Mission name: { launch.mission_name}</p>
-            <p> Mission id: { launch.mission_id}</p>
-            <p> Rocket name: { launch.rocket.rocket_name}</p>
-            <p>Company name: { launch.rocket.rocket.company}</p>
-            <p>Site name: { launch.launch_site.site_name}</p>
-
+            <img className='image' src={img} alt="image"/>
+            <div className="appInfo__details"> <p> Mission name: { launch.mission_name}</p>
+                <p> Mission id: { launch.mission_id}</p>
+                <p> Rocket name: { launch.rocket.rocket_name}</p>
+                <p>Company name: { launch.rocket.rocket.company}</p>
+                <p>Site name: { launch.launch_site.site_name}</p>
+            </div>
         </div>
        </div>
        
