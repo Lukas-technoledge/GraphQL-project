@@ -29,3 +29,7 @@
 .appInfo__details {
     flex: 0.5;
 }
+
+.select {
+    color: green;
+}
