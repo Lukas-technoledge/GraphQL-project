@@ -3,12 +3,12 @@ import './Search.css'
 import SearchIcon from '@mui/icons-material/Search';
 
 
-function Search() {
+function Search({ search, setSearch, handleChange1 }) {
   return (
     <div className='search'>
       <div className="search__input">
         <SearchIcon className = 'search__inputIcon' />
-        <input  placeholder='Search for rocket'/>
+        <input onChange={handleChange1} value={search} placeholder='Search for bt mission name'/>
       </div>
     </div>
   )
